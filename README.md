@@ -4,6 +4,11 @@
 
 This project is a simple app to retrive and show extended Discord Profile information.
 
+## Requirements
+
+* Currently only Windows build (Linux later)
+* Discord Bot API Key -> [Discord Developer Portal](https://discord.dev)
+
 ## Contributing
 
 Any idea or want to share help with the development? The contribution guide can be found here [CONTRIBUTION](https://laravel.com/docs/contributions).

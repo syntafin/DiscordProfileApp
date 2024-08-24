@@ -2145,16 +2145,16 @@
         },
         {
             "name": "nativephp/laravel",
-            "version": "0.5.3",
+            "version": "0.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NativePHP/laravel.git",
-                "reference": "c43de4923ac8ec521588289ff29bd7af4ca7a2f1"
+                "reference": "54461562d53ef7e519ec72cb62eabd0b64450eaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NativePHP/laravel/zipball/c43de4923ac8ec521588289ff29bd7af4ca7a2f1",
-                "reference": "c43de4923ac8ec521588289ff29bd7af4ca7a2f1",
+                "url": "https://api.github.com/repos/NativePHP/laravel/zipball/54461562d53ef7e519ec72cb62eabd0b64450eaf",
+                "reference": "54461562d53ef7e519ec72cb62eabd0b64450eaf",
                 "shasum": ""
             },
             "require": {
@@ -2223,7 +2223,7 @@
             ],
             "support": {
                 "issues": "https://github.com/NativePHP/laravel/issues",
-                "source": "https://github.com/NativePHP/laravel/tree/0.5.3"
+                "source": "https://github.com/NativePHP/laravel/tree/0.5.4"
             },
             "funding": [
                 {
@@ -2231,7 +2231,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-07-18T01:24:22+00:00"
+            "time": "2024-08-24T10:20:20+00:00"
         },
         {
             "name": "nativephp/php-bin",
