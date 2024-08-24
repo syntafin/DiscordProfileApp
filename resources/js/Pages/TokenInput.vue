@@ -27,9 +27,9 @@ function submit() {
                 {{ $page.props.error }}
             </div>
         </div>
-        <div class="flex flex-col items-center h-full justify-center text-gray-900 dark:text-gray-100 w-full gap-2">
+        <div class="flex flex-col items-center h-full justify-center text-gray-100 w-full gap-2">
             <InputLabel for="token">API Token</InputLabel>
-            <TextInput id="token" class="w-full text-gray-800 dark:text-gray-200" v-model="form.token" />
+            <TextInput id="token" class="w-full" v-model="form.token" />
             <InputError :message="form.errors.token" />
             <PrimaryButton @click="submit">Speichern</PrimaryButton>
         </div>

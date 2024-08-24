@@ -6,6 +6,7 @@ use App\Models\Setting;
 use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
+use Native\Laravel\Facades\Window;
 
 class MainController extends Controller
 {
@@ -51,6 +52,16 @@ class MainController extends Controller
         return inertia('Profile', [
             'user' => $user
         ]);
+    }
+
+    public function minimizeWindow()
+    {
+        Window::minimize();
+    }
+
+    public function closeWindow()
+    {
+        Window::close();
     }
 
     protected function token(): string|null

@@ -14,7 +14,7 @@ defineProps({
     <AppLayout class="flex-col">
         <div class="flex mx-4 items-center gap-4 mb-4 justify-between">
             <div class="flex items-center gap-2">
-                <Link :href="route('app.index')" class="bg-green-500 px-4 py-2 rounded text-white hover:bg-green-800">
+                <Link :href="route('app.index')" class="bg-discord-fuchsia px-4 py-2 rounded text-white hover:bg-discord-red">
                     Back
                 </Link>
                 <div class="flex-shrink-0">

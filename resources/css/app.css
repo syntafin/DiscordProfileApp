@@ -5,3 +5,17 @@
 p {
     @apply text-white;
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+    @apply bg-discord-blurple;
+}
+::-webkit-scrollbar-track {
+    @apply bg-discord-blurple;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+    @apply bg-discord-fuchsia;
+    border-radius: 20px;
+    width: 3px;
+}

@@ -20,14 +20,14 @@ function submit() {
     <Head>
         <title>Startseite</title>
     </Head>
-    <AppLayout class="flex-col gap-2">
+    <AppLayout>
         <Card class="w-full flex-col">
             <InputLabel for="userId" class="text-gray-100 text-xl">User ID</InputLabel>
             <TextInput v-model="form.userid" required></TextInput>
             <InputError :message="form.errors.userid" />
         </Card>
         <div class="flex w-full justify-center">
-            <button type="button" @click="submit" class="bg-green-500 hover:bg-green-800 px-4 py-2 rounded justify-center items-center mx-4 text-white">Show Profile</button>
+            <button type="button" @click="submit" class="bg-discord-green hover:bg-discord-yellow px-4 py-2 rounded justify-center items-center mx-4 text-gray-800">Show Profile</button>
         </div>
         <Profile v-if="user" :user="user" />
     </AppLayout>
