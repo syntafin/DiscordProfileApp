@@ -2,20 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-image: url("../img/discord-mark-white.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom 10px right 10px;
+    background-size: 30%;
+}
+
 p {
     @apply text-white;
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
-    @apply bg-discord-blurple;
+    width: 7px;
+    @apply bg-discord-black;
 }
 ::-webkit-scrollbar-track {
-    @apply bg-discord-blurple;
-    border-radius: 20px;
+    @apply bg-discord-black;
+    border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    @apply bg-discord-fuchsia;
-    border-radius: 20px;
-    width: 3px;
+    @apply bg-discord-blurple;
+    border-radius: 10px;
+    width: 5px;
 }

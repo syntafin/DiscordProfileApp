@@ -26,9 +26,4 @@ function close() {
     <div class="flex w-full flex-col gap-2">
         <slot />
     </div>
-    <img src="../../img/discord-mark-white.svg" class="size-96 fixed -rotate-12 bottom-0 right-12 -z-10"/>
 </template>
-
-<style scoped>
-
-</style>
